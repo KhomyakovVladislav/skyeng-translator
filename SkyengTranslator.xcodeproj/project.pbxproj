@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		434197D2261E09B2008CE3B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434197D1261E09B2008CE3B2 /* AppDelegate.swift */; };
-		434197D4261E09B2008CE3B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434197D3261E09B2008CE3B2 /* SceneDelegate.swift */; };
-		434197D6261E09B2008CE3B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434197D5261E09B2008CE3B2 /* ViewController.swift */; };
-		434197D9261E09B2008CE3B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434197D7261E09B2008CE3B2 /* Main.storyboard */; };
 		434197DB261E09B6008CE3B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 434197DA261E09B6008CE3B2 /* Assets.xcassets */; };
 		434197DE261E09B6008CE3B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434197DC261E09B6008CE3B2 /* LaunchScreen.storyboard */; };
 		434197E9261E09B6008CE3B2 /* SkyengTranslatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434197E8261E09B6008CE3B2 /* SkyengTranslatorTests.swift */; };
@@ -29,9 +26,6 @@
 /* Begin PBXFileReference section */
 		434197CE261E09B2008CE3B2 /* SkyengTranslator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyengTranslator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		434197D1261E09B2008CE3B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		434197D3261E09B2008CE3B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		434197D5261E09B2008CE3B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		434197D8261E09B2008CE3B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		434197DA261E09B6008CE3B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		434197DD261E09B6008CE3B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		434197DF261E09B6008CE3B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -80,9 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				434197D1261E09B2008CE3B2 /* AppDelegate.swift */,
-				434197D3261E09B2008CE3B2 /* SceneDelegate.swift */,
-				434197D5261E09B2008CE3B2 /* ViewController.swift */,
-				434197D7261E09B2008CE3B2 /* Main.storyboard */,
 				434197DA261E09B6008CE3B2 /* Assets.xcassets */,
 				434197DC261E09B6008CE3B2 /* LaunchScreen.storyboard */,
 				434197DF261E09B6008CE3B2 /* Info.plist */,
@@ -182,7 +173,6 @@
 			files = (
 				434197DE261E09B6008CE3B2 /* LaunchScreen.storyboard in Resources */,
 				434197DB261E09B6008CE3B2 /* Assets.xcassets in Resources */,
-				434197D9261E09B2008CE3B2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,9 +190,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				434197D6261E09B2008CE3B2 /* ViewController.swift in Sources */,
 				434197D2261E09B2008CE3B2 /* AppDelegate.swift in Sources */,
-				434197D4261E09B2008CE3B2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,14 +213,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		434197D7261E09B2008CE3B2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				434197D8261E09B2008CE3B2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		434197DC261E09B6008CE3B2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -365,6 +345,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J77XNB8Z48;
 				INFOPLIST_FILE = SkyengTranslator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -383,6 +364,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J77XNB8Z48;
 				INFOPLIST_FILE = SkyengTranslator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
