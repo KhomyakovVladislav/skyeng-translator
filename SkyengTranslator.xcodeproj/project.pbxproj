@@ -11,6 +11,11 @@
 		434197DB261E09B6008CE3B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 434197DA261E09B6008CE3B2 /* Assets.xcassets */; };
 		434197DE261E09B6008CE3B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434197DC261E09B6008CE3B2 /* LaunchScreen.storyboard */; };
 		434197E9261E09B6008CE3B2 /* SkyengTranslatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434197E8261E09B6008CE3B2 /* SkyengTranslatorTests.swift */; };
+		434197FB261E54C8008CE3B2 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434197F9261E54C8008CE3B2 /* SearchViewController.swift */; };
+		434197FC261E54C8008CE3B2 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 434197FA261E54C8008CE3B2 /* SearchViewController.xib */; };
+		434197FF261E54E2008CE3B2 /* MeaningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434197FD261E54E2008CE3B2 /* MeaningViewController.swift */; };
+		43419800261E54E2008CE3B2 /* MeaningViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 434197FE261E54E2008CE3B2 /* MeaningViewController.xib */; };
+		4341980C261E5926008CE3B2 /* MeaningRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4341980B261E5926008CE3B2 /* MeaningRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +37,11 @@
 		434197E4261E09B6008CE3B2 /* SkyengTranslatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyengTranslatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		434197E8261E09B6008CE3B2 /* SkyengTranslatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyengTranslatorTests.swift; sourceTree = "<group>"; };
 		434197EA261E09B6008CE3B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		434197F9261E54C8008CE3B2 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		434197FA261E54C8008CE3B2 /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		434197FD261E54E2008CE3B2 /* MeaningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeaningViewController.swift; sourceTree = "<group>"; };
+		434197FE261E54E2008CE3B2 /* MeaningViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeaningViewController.xib; sourceTree = "<group>"; };
+		4341980B261E5926008CE3B2 /* MeaningRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeaningRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +83,7 @@
 		434197D0261E09B2008CE3B2 /* SkyengTranslator */ = {
 			isa = PBXGroup;
 			children = (
+				434197F8261E54A6008CE3B2 /* Features */,
 				434197D1261E09B2008CE3B2 /* AppDelegate.swift */,
 				434197DA261E09B6008CE3B2 /* Assets.xcassets */,
 				434197DC261E09B6008CE3B2 /* LaunchScreen.storyboard */,
@@ -88,6 +99,26 @@
 				434197EA261E09B6008CE3B2 /* Info.plist */,
 			);
 			path = SkyengTranslatorTests;
+			sourceTree = "<group>";
+		};
+		434197F8261E54A6008CE3B2 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				43419801261E5502008CE3B2 /* Navigation */,
+				434197F9261E54C8008CE3B2 /* SearchViewController.swift */,
+				434197FA261E54C8008CE3B2 /* SearchViewController.xib */,
+				434197FD261E54E2008CE3B2 /* MeaningViewController.swift */,
+				434197FE261E54E2008CE3B2 /* MeaningViewController.xib */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		43419801261E5502008CE3B2 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				4341980B261E5926008CE3B2 /* MeaningRouter.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,7 +202,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				434197FC261E54C8008CE3B2 /* SearchViewController.xib in Resources */,
 				434197DE261E09B6008CE3B2 /* LaunchScreen.storyboard in Resources */,
+				43419800261E54E2008CE3B2 /* MeaningViewController.xib in Resources */,
 				434197DB261E09B6008CE3B2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -190,7 +223,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				434197FF261E54E2008CE3B2 /* MeaningViewController.swift in Sources */,
+				434197FB261E54C8008CE3B2 /* SearchViewController.swift in Sources */,
 				434197D2261E09B2008CE3B2 /* AppDelegate.swift in Sources */,
+				4341980C261E5926008CE3B2 /* MeaningRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
