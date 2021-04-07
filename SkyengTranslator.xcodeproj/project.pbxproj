@@ -16,6 +16,14 @@
 		434197FF261E54E2008CE3B2 /* MeaningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434197FD261E54E2008CE3B2 /* MeaningViewController.swift */; };
 		43419800261E54E2008CE3B2 /* MeaningViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 434197FE261E54E2008CE3B2 /* MeaningViewController.xib */; };
 		4341980C261E5926008CE3B2 /* MeaningRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4341980B261E5926008CE3B2 /* MeaningRouter.swift */; };
+		43419810261E5D00008CE3B2 /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4341980F261E5D00008CE3B2 /* SearchService.swift */; };
+		43419813261E6BB1008CE3B2 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43419812261E6BB1008CE3B2 /* Service.swift */; };
+		43419817261E6BDF008CE3B2 /* SearchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43419816261E6BDF008CE3B2 /* SearchRequest.swift */; };
+		43419819261E6C6B008CE3B2 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43419818261E6C6B008CE3B2 /* Word.swift */; };
+		4341981B261E6CBB008CE3B2 /* Meaning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4341981A261E6CBB008CE3B2 /* Meaning.swift */; };
+		4341981D261E6CD8008CE3B2 /* Translation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4341981C261E6CD8008CE3B2 /* Translation.swift */; };
+		4341981F261E6D14008CE3B2 /* SpeechPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4341981E261E6D14008CE3B2 /* SpeechPart.swift */; };
+		43419823261E747E008CE3B2 /* SearchServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43419822261E747E008CE3B2 /* SearchServiceError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +50,14 @@
 		434197FD261E54E2008CE3B2 /* MeaningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeaningViewController.swift; sourceTree = "<group>"; };
 		434197FE261E54E2008CE3B2 /* MeaningViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeaningViewController.xib; sourceTree = "<group>"; };
 		4341980B261E5926008CE3B2 /* MeaningRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeaningRouter.swift; sourceTree = "<group>"; };
+		4341980F261E5D00008CE3B2 /* SearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
+		43419812261E6BB1008CE3B2 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		43419816261E6BDF008CE3B2 /* SearchRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRequest.swift; sourceTree = "<group>"; };
+		43419818261E6C6B008CE3B2 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		4341981A261E6CBB008CE3B2 /* Meaning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meaning.swift; sourceTree = "<group>"; };
+		4341981C261E6CD8008CE3B2 /* Translation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translation.swift; sourceTree = "<group>"; };
+		4341981E261E6D14008CE3B2 /* SpeechPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechPart.swift; sourceTree = "<group>"; };
+		43419822261E747E008CE3B2 /* SearchServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchServiceError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,11 +120,10 @@
 		434197F8261E54A6008CE3B2 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				43419811261E6BA3008CE3B2 /* Networking */,
+				4341980E261E5CB4008CE3B2 /* Meaning */,
+				4341980D261E5CA7008CE3B2 /* Search */,
 				43419801261E5502008CE3B2 /* Navigation */,
-				434197F9261E54C8008CE3B2 /* SearchViewController.swift */,
-				434197FA261E54C8008CE3B2 /* SearchViewController.xib */,
-				434197FD261E54E2008CE3B2 /* MeaningViewController.swift */,
-				434197FE261E54E2008CE3B2 /* MeaningViewController.xib */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -119,6 +134,55 @@
 				4341980B261E5926008CE3B2 /* MeaningRouter.swift */,
 			);
 			path = Navigation;
+			sourceTree = "<group>";
+		};
+		4341980D261E5CA7008CE3B2 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				43419815261E6BD0008CE3B2 /* Service */,
+				43419814261E6BC7008CE3B2 /* Model */,
+				434197F9261E54C8008CE3B2 /* SearchViewController.swift */,
+				434197FA261E54C8008CE3B2 /* SearchViewController.xib */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		4341980E261E5CB4008CE3B2 /* Meaning */ = {
+			isa = PBXGroup;
+			children = (
+				434197FD261E54E2008CE3B2 /* MeaningViewController.swift */,
+				434197FE261E54E2008CE3B2 /* MeaningViewController.xib */,
+			);
+			path = Meaning;
+			sourceTree = "<group>";
+		};
+		43419811261E6BA3008CE3B2 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				43419812261E6BB1008CE3B2 /* Service.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		43419814261E6BC7008CE3B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				43419816261E6BDF008CE3B2 /* SearchRequest.swift */,
+				43419818261E6C6B008CE3B2 /* Word.swift */,
+				4341981A261E6CBB008CE3B2 /* Meaning.swift */,
+				4341981C261E6CD8008CE3B2 /* Translation.swift */,
+				4341981E261E6D14008CE3B2 /* SpeechPart.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		43419815261E6BD0008CE3B2 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4341980F261E5D00008CE3B2 /* SearchService.swift */,
+				43419822261E747E008CE3B2 /* SearchServiceError.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,9 +288,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				434197FF261E54E2008CE3B2 /* MeaningViewController.swift in Sources */,
+				43419819261E6C6B008CE3B2 /* Word.swift in Sources */,
 				434197FB261E54C8008CE3B2 /* SearchViewController.swift in Sources */,
+				4341981F261E6D14008CE3B2 /* SpeechPart.swift in Sources */,
+				43419810261E5D00008CE3B2 /* SearchService.swift in Sources */,
 				434197D2261E09B2008CE3B2 /* AppDelegate.swift in Sources */,
+				43419817261E6BDF008CE3B2 /* SearchRequest.swift in Sources */,
 				4341980C261E5926008CE3B2 /* MeaningRouter.swift in Sources */,
+				43419823261E747E008CE3B2 /* SearchServiceError.swift in Sources */,
+				43419813261E6BB1008CE3B2 /* Service.swift in Sources */,
+				4341981B261E6CBB008CE3B2 /* Meaning.swift in Sources */,
+				4341981D261E6CD8008CE3B2 /* Translation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

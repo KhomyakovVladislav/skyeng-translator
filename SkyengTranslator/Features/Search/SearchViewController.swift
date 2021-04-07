@@ -28,7 +28,10 @@ final class SearchViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        SearchService().doRequest(SearchRequest(search: "test", page: nil, pageSize: nil)) { response, error in
+            print(response ?? "no data")
+        }
     }
 
     @IBAction private func onTap() {
