@@ -24,6 +24,11 @@
 		4341981D261E6CD8008CE3B2 /* Translation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4341981C261E6CD8008CE3B2 /* Translation.swift */; };
 		4341981F261E6D14008CE3B2 /* SpeechPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4341981E261E6D14008CE3B2 /* SpeechPart.swift */; };
 		43419823261E747E008CE3B2 /* SearchServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43419822261E747E008CE3B2 /* SearchServiceError.swift */; };
+		43419827261E83AC008CE3B2 /* WordsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43419825261E83AC008CE3B2 /* WordsTableViewController.swift */; };
+		43419828261E83AC008CE3B2 /* WordsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43419826261E83AC008CE3B2 /* WordsTableViewController.xib */; };
+		43D8C03A261E909200802DC3 /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D8C039261E909200802DC3 /* SearchModel.swift */; };
+		43D8C043261EB04500802DC3 /* MeaningViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D8C041261EB04500802DC3 /* MeaningViewCell.swift */; };
+		43D8C044261EB04500802DC3 /* MeaningViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43D8C042261EB04500802DC3 /* MeaningViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +63,11 @@
 		4341981C261E6CD8008CE3B2 /* Translation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translation.swift; sourceTree = "<group>"; };
 		4341981E261E6D14008CE3B2 /* SpeechPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechPart.swift; sourceTree = "<group>"; };
 		43419822261E747E008CE3B2 /* SearchServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchServiceError.swift; sourceTree = "<group>"; };
+		43419825261E83AC008CE3B2 /* WordsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsTableViewController.swift; sourceTree = "<group>"; };
+		43419826261E83AC008CE3B2 /* WordsTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WordsTableViewController.xib; sourceTree = "<group>"; };
+		43D8C039261E909200802DC3 /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
+		43D8C041261EB04500802DC3 /* MeaningViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeaningViewCell.swift; sourceTree = "<group>"; };
+		43D8C042261EB04500802DC3 /* MeaningViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeaningViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,10 +149,10 @@
 		4341980D261E5CA7008CE3B2 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				43419824261E818C008CE3B2 /* UI */,
 				43419815261E6BD0008CE3B2 /* Service */,
-				43419814261E6BC7008CE3B2 /* Model */,
-				434197F9261E54C8008CE3B2 /* SearchViewController.swift */,
-				434197FA261E54C8008CE3B2 /* SearchViewController.xib */,
+				43419814261E6BC7008CE3B2 /* Entity */,
+				43D8C039261E909200802DC3 /* SearchModel.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -164,7 +174,7 @@
 			path = Networking;
 			sourceTree = "<group>";
 		};
-		43419814261E6BC7008CE3B2 /* Model */ = {
+		43419814261E6BC7008CE3B2 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
 				43419816261E6BDF008CE3B2 /* SearchRequest.swift */,
@@ -173,7 +183,7 @@
 				4341981C261E6CD8008CE3B2 /* Translation.swift */,
 				4341981E261E6D14008CE3B2 /* SpeechPart.swift */,
 			);
-			path = Model;
+			path = Entity;
 			sourceTree = "<group>";
 		};
 		43419815261E6BD0008CE3B2 /* Service */ = {
@@ -183,6 +193,19 @@
 				43419822261E747E008CE3B2 /* SearchServiceError.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		43419824261E818C008CE3B2 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				434197F9261E54C8008CE3B2 /* SearchViewController.swift */,
+				434197FA261E54C8008CE3B2 /* SearchViewController.xib */,
+				43419825261E83AC008CE3B2 /* WordsTableViewController.swift */,
+				43419826261E83AC008CE3B2 /* WordsTableViewController.xib */,
+				43D8C041261EB04500802DC3 /* MeaningViewCell.swift */,
+				43D8C042261EB04500802DC3 /* MeaningViewCell.xib */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,9 +289,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43D8C044261EB04500802DC3 /* MeaningViewCell.xib in Resources */,
 				434197FC261E54C8008CE3B2 /* SearchViewController.xib in Resources */,
 				434197DE261E09B6008CE3B2 /* LaunchScreen.storyboard in Resources */,
 				43419800261E54E2008CE3B2 /* MeaningViewController.xib in Resources */,
+				43419828261E83AC008CE3B2 /* WordsTableViewController.xib in Resources */,
 				434197DB261E09B6008CE3B2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,9 +315,12 @@
 				434197FF261E54E2008CE3B2 /* MeaningViewController.swift in Sources */,
 				43419819261E6C6B008CE3B2 /* Word.swift in Sources */,
 				434197FB261E54C8008CE3B2 /* SearchViewController.swift in Sources */,
+				43D8C03A261E909200802DC3 /* SearchModel.swift in Sources */,
+				43419827261E83AC008CE3B2 /* WordsTableViewController.swift in Sources */,
 				4341981F261E6D14008CE3B2 /* SpeechPart.swift in Sources */,
 				43419810261E5D00008CE3B2 /* SearchService.swift in Sources */,
 				434197D2261E09B2008CE3B2 /* AppDelegate.swift in Sources */,
+				43D8C043261EB04500802DC3 /* MeaningViewCell.swift in Sources */,
 				43419817261E6BDF008CE3B2 /* SearchRequest.swift in Sources */,
 				4341980C261E5926008CE3B2 /* MeaningRouter.swift in Sources */,
 				43419823261E747E008CE3B2 /* SearchServiceError.swift in Sources */,

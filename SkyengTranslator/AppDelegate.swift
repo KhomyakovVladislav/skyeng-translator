@@ -14,7 +14,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        let rootNavController = UINavigationController(rootViewController: SearchViewController())
+        let searchService = SearchService()
+        let model = SearchModel(service: searchService)
+        let rootNavController = UINavigationController(rootViewController: SearchViewController(model: model))
         
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = rootNavController
