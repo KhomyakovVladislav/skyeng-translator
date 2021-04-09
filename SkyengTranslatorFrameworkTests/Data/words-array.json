@@ -1,0 +1,416 @@
+[
+  {
+    "id": 517,
+    "text": "test",
+    "meanings": [
+      {
+        "id": 9045,
+        "partOfSpeechCode": "n",
+        "translation": {
+          "text": "экзамен",
+          "note": ""
+        },
+        "previewUrl": "//d2zkmv5t5kao9.cloudfront.net/images/7843b72892db15579912e5072bfb2754.jpeg?w=96&h=72",
+        "imageUrl": "//d2zkmv5t5kao9.cloudfront.net/images/7843b72892db15579912e5072bfb2754.jpeg?w=640&h=480",
+        "transcription": "tɛst",
+        "soundUrl": "//d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=test"
+      },
+      {
+        "id": 9044,
+        "partOfSpeechCode": "n",
+        "translation": {
+          "text": "тест",
+          "note": ""
+        },
+        "previewUrl": "//d2zkmv5t5kao9.cloudfront.net/images/39a8c12f0bd5311e9bfad2faac9f696d.jpeg?w=96&h=72",
+        "imageUrl": "//d2zkmv5t5kao9.cloudfront.net/images/39a8c12f0bd5311e9bfad2faac9f696d.jpeg?w=640&h=480",
+        "transcription": "tɛst",
+        "soundUrl": "//d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=test"
+      },
+      {
+        "id": 237309,
+        "partOfSpeechCode": "n",
+        "translation": {
+          "text": "анализ",
+          "note": ""
+        },
+        "previewUrl": "//d2zkmv5t5kao9.cloudfront.net/images/3d8338ed200f757718ce3fb1b282e62b.jpeg?w=96&h=72",
+        "imageUrl": "//d2zkmv5t5kao9.cloudfront.net/images/3d8338ed200f757718ce3fb1b282e62b.jpeg?w=640&h=480",
+        "transcription": "tɛst",
+        "soundUrl": "//d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=test"
+      },
+      {
+        "id": 9043,
+        "partOfSpeechCode": "n",
+        "translation": {
+          "text": "испытание",
+          "note": ""
+        },
+        "previewUrl": "//d2zkmv5t5kao9.cloudfront.net/images/e6ad16d224530a614f3bf87d1f643ac2.jpeg?w=96&h=72",
+        "imageUrl": "//d2zkmv5t5kao9.cloudfront.net/images/e6ad16d224530a614f3bf87d1f643ac2.jpeg?w=640&h=480",
+        "transcription": "tɛst",
+        "soundUrl": "//d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=test"
+      },
+      {
+        "id": 239328,
+        "partOfSpeechCode": "n",
+        "translation": {
+          "text": "испытание",
+          "note": null
+        },
+        "previewUrl": "//d2zkmv5t5kao9.cloudfront.net/images/2fbcda26c60e393662ed9bf565f65f0a.png?w=96&h=72",
+        "imageUrl": "//d2zkmv5t5kao9.cloudfront.net/images/2fbcda26c60e393662ed9bf565f65f0a.png?w=640&h=480",
+        "transcription": "tɛst",
+        "soundUrl": "//d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=test"
+      },
+      {
+        "id": 9051,
+        "partOfSpeechCode": "v",
+        "translation": {
+          "text": "тестировать",
+          "note": null
+        },
+        "previewUrl": "//d2zkmv5t5kao9.cloudfront.net/images/fb60b6f5f44ba1300112e7a16592d7dc.jpeg?w=96&h=72",
+        "imageUrl": "//d2zkmv5t5kao9.cloudfront.net/images/fb60b6f5f44ba1300112e7a16592d7dc.jpeg?w=640&h=480",
+        "transcription": "tɛst",
+        "soundUrl": "//d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=test"
+      },
+      {
+        "id": 9053,
+        "partOfSpeechCode": "v",
+        "translation": {
+          "text": "показывать какой-либо результат",
+          "note": "в ходе испытания или экзамена"
+        },
+        "previewUrl": "//d2zkmv5t5kao9.cloudfront.net/images/e98154c776121637207e3217204db313.jpeg?w=96&h=72",
+        "imageUrl": "//d2zkmv5t5kao9.cloudfront.net/images/e98154c776121637207e3217204db313.jpeg?w=640&h=480",
+        "transcription": "tɛst",
+        "soundUrl": "//d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=test"
+      },
+      {
+        "id": 9050,
+        "partOfSpeechCode": "v",
+        "translation": {
+          "text": "обследовать",
+          "note": ""
+        },
+        "previewUrl": "//d2zkmv5t5kao9.cloudfront.net/images/821920e4f865f915f7e8ea91a0d2912d.jpeg?w=96&h=72",
+        "imageUrl": "//d2zkmv5t5kao9.cloudfront.net/images/821920e4f865f915f7e8ea91a0d2912d.jpeg?w=640&h=480",
+        "transcription": "tɛst",
+        "soundUrl": "//d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=test"
+      },
+      {
+        "id": 9052,
+        "partOfSpeechCode": "v",
+        "translation": {
+          "text": "показывать",
+          "note": "какой-либо результат после теста"
+        },
+        "previewUrl": "//d2zkmv5t5kao9.cloudfront.net/images/a6dced18f166073cba4703c1b4d09290.png?w=96&h=72",
+        "imageUrl": "//d2zkmv5t5kao9.cloudfront.net/images/a6dced18f166073cba4703c1b4d09290.png?w=640&h=480",
+        "transcription": "tɛst",
+        "soundUrl": "//d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=test"
+      },
+      {
+        "id": 239330,
+        "partOfSpeechCode": "v",
+        "translation": {
+          "text": "подвергать испытанию",
+          "note": ""
+        },
+        "previewUrl": "//d2zkmv5t5kao9.cloudfront.net/images/e71966998a577401d77d4686685f19ff.jpeg?w=96&h=72",
+        "imageUrl": "//d2zkmv5t5kao9.cloudfront.net/images/e71966998a577401d77d4686685f19ff.jpeg?w=640&h=480",
+        "transcription": "tɛst",
+        "soundUrl": "//d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=test"
+      },
+      {
+        "id": 9049,
+        "partOfSpeechCode": "v",
+        "translation": {
+          "text": "проверять",
+          "note": ""
+        },
+        "previewUrl": "//d2zkmv5t5kao9.cloudfront.net/images/9efda32d9742bf9254ea2f0f111ad051.jpeg?w=96&h=72",
+        "imageUrl": "//d2zkmv5t5kao9.cloudfront.net/images/9efda32d9742bf9254ea2f0f111ad051.jpeg?w=640&h=480",
+        "transcription": "tɛst",
+        "soundUrl": "//d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=test"
+      }
+    ]
+  },
+  {
+    "id": 79293,
+    "text": "test match",
+    "meanings": [
+      {
+        "id": 209953,
+        "partOfSpeechCode": "n",
+        "translation": {
+          "text": "олимпийская система",
+          "note": null
+        },
+        "previewUrl": "//d2zkmv5t5kao9.cloudfront.net/images/7b088e36313d9ed78d8fa82a3d848088.jpeg?w=96&h=72",
+        "imageUrl": "//d2zkmv5t5kao9.cloudfront.net/images/7b088e36313d9ed78d8fa82a3d848088.jpeg?w=640&h=480",
+        "transcription": "tɛst mæʧ",
+        "soundUrl": "//d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=test+match"
+      }
+    ]
+  },
+  {
+    "id": 173355,
+    "text": "rundown test",
+    "meanings": [
+      {
+        "id": 247314,
+        "partOfSpeechCode": "n",
+        "translation": {
+          "text": "испытание в режиме выбега",
+          "note": null
+        },
+        "previewUrl": "//d2zkmv5t5kao9.cloudfront.net/images/a24a324f50c8cb204a09115d01a3d059.png?w=96&h=72",
+        "imageUrl": "//d2zkmv5t5kao9.cloudfront.net/images/a24a324f50c8cb204a09115d01a3d059.png?w=640&h=480",
+        "transcription": "ˈrʌndaʊn tɛst",
+        "soundUrl": "//d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=rundown+test"
+      }
+    ]
+  },
+  {
+    "id": 176342,
+    "text": "bump test",
+    "meanings": [
+      {
+        "id": 250716,
+        "partOfSpeechCode": "n",
+        "translation": {
+          "text": "испытание на ударную прочность",
+          "note": null
+        },
+        "previewUrl": "//d2zkmv5t5kao9.cloudfront.net/images/290b251f747ca16f3f211c42cef3d113.png?w=96&h=72",
+        "imageUrl": "//d2zkmv5t5kao9.cloudfront.net/images/290b251f747ca16f3f211c42cef3d113.png?w=640&h=480",
+        "transcription": "bʌmp tɛst",
+        "soundUrl": "//d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=bump+test"
+      }
+    ]
+  },
+  {
+    "id": 182124,
+    "text": "test protocol",
+    "meanings": [
+      {
+        "id": 258791,
+        "partOfSpeechCode": "n",
+        "translation": {
+          "text": "протокол испытания",
+          "note": ""
+        },
+        "previewUrl": "//d2zkmv5t5kao9.cloudfront.net/images/74625ef4934368175730bd77f973a81c.png?w=96&h=72",
+        "imageUrl": "//d2zkmv5t5kao9.cloudfront.net/images/74625ef4934368175730bd77f973a81c.png?w=640&h=480",
+        "transcription": "tɛst ˈprəʊtəkɒl",
+        "soundUrl": "//d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=test+protocol"
+      }
+    ]
+  },
+  {
+    "id": 182125,
+    "text": "test run",
+    "meanings": [
+      {
+        "id": 258792,
+        "partOfSpeechCode": "n",
+        "translation": {
+          "text": "пробный пуск",
+          "note": ""
+        },
+        "previewUrl": "//d2zkmv5t5kao9.cloudfront.net/images/223c18b9addfb01bdd4141ba5d444e3b.png?w=96&h=72",
+        "imageUrl": "//d2zkmv5t5kao9.cloudfront.net/images/223c18b9addfb01bdd4141ba5d444e3b.png?w=640&h=480",
+        "transcription": "tɛst rʌn",
+        "soundUrl": "//d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=test+run"
+      }
+    ]
+  },
+  {
+    "id": 183669,
+    "text": "test stand",
+    "meanings": [
+      {
+        "id": 260583,
+        "partOfSpeechCode": "n",
+        "translation": {
+          "text": "испытательный стенд",
+          "note": ""
+        },
+        "previewUrl": "//d2zkmv5t5kao9.cloudfront.net/images/bd09c2c7443e114e16fd7ca80350a3c0.jpeg?w=96&h=72",
+        "imageUrl": "//d2zkmv5t5kao9.cloudfront.net/images/bd09c2c7443e114e16fd7ca80350a3c0.jpeg?w=640&h=480",
+        "transcription": "tɛst stænd",
+        "soundUrl": "//d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=test+stand"
+      }
+    ]
+  },
+  {
+    "id": 164701,
+    "text": "test-taker",
+    "meanings": [
+      {
+        "id": 232241,
+        "partOfSpeechCode": "ph",
+        "translation": {
+          "text": "тестируемый",
+          "note": null
+        },
+        "previewUrl": "//d2zkmv5t5kao9.cloudfront.net/images/fd7b82ac34b8bb51d21c0a839fb1b52d.jpeg?w=96&h=72",
+        "imageUrl": "//d2zkmv5t5kao9.cloudfront.net/images/fd7b82ac34b8bb51d21c0a839fb1b52d.jpeg?w=640&h=480",
+        "transcription": "tɛst ˈteɪkə",
+        "soundUrl": "//d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=test-taker"
+      }
+    ]
+  },
+  {
+    "id": 172582,
+    "text": "test rig",
+    "meanings": [
+      {
+        "id": 246501,
+        "partOfSpeechCode": "n",
+        "translation": {
+          "text": "испытательная установка",
+          "note": null
+        },
+        "previewUrl": "//d2zkmv5t5kao9.cloudfront.net/images/adc08202c104327b57e53d40bc0255d4.png?w=96&h=72",
+        "imageUrl": "//d2zkmv5t5kao9.cloudfront.net/images/adc08202c104327b57e53d40bc0255d4.png?w=640&h=480",
+        "transcription": "tɛst rɪg",
+        "soundUrl": "//d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=test+rig"
+      }
+    ]
+  },
+  {
+    "id": 83816,
+    "text": "mental test",
+    "meanings": [
+      {
+        "id": 86956,
+        "partOfSpeechCode": "n",
+        "translation": {
+          "text": "испытания",
+          "note": null
+        },
+        "previewUrl": "//d2zkmv5t5kao9.cloudfront.net/images/129a5fa48c66f96c5ee27eea01a3e778.jpeg?w=96&h=72",
+        "imageUrl": "//d2zkmv5t5kao9.cloudfront.net/images/129a5fa48c66f96c5ee27eea01a3e778.jpeg?w=640&h=480",
+        "transcription": "ˈmɛntl tɛst",
+        "soundUrl": "//d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=mental+test"
+      }
+    ]
+  },
+  {
+    "id": 127553,
+    "text": "intelligence test",
+    "meanings": [
+      {
+        "id": 83802,
+        "partOfSpeechCode": "n",
+        "translation": {
+          "text": "испытание умственных способностей",
+          "note": null
+        },
+        "previewUrl": "//d2zkmv5t5kao9.cloudfront.net/images/5cb2b19986248cf3d41803be9bbc24ea.jpeg?w=96&h=72",
+        "imageUrl": "//d2zkmv5t5kao9.cloudfront.net/images/5cb2b19986248cf3d41803be9bbc24ea.jpeg?w=640&h=480",
+        "transcription": "ɪnˈtɛlɪʤəns tɛst",
+        "soundUrl": "//d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=intelligence+test"
+      }
+    ]
+  },
+  {
+    "id": 182712,
+    "text": "engine test",
+    "meanings": [
+      {
+        "id": 259458,
+        "partOfSpeechCode": "n",
+        "translation": {
+          "text": "испытание двигателя",
+          "note": ""
+        },
+        "previewUrl": "//d2zkmv5t5kao9.cloudfront.net/images/3c89adf991bb5951d143f728deaf4f4d.png?w=96&h=72",
+        "imageUrl": "//d2zkmv5t5kao9.cloudfront.net/images/3c89adf991bb5951d143f728deaf4f4d.png?w=640&h=480",
+        "transcription": "ˈɛnʤɪn tɛst",
+        "soundUrl": "//d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=engine+test"
+      }
+    ]
+  },
+  {
+    "id": 71420,
+    "text": "patch test",
+    "meanings": [
+      {
+        "id": 30125,
+        "partOfSpeechCode": "n",
+        "translation": {
+          "text": "патч тест",
+          "note": null
+        },
+        "previewUrl": "//d2zkmv5t5kao9.cloudfront.net/images/2be154b6debc6155f9c23a11edfba40f.jpeg?w=96&h=72",
+        "imageUrl": "//d2zkmv5t5kao9.cloudfront.net/images/2be154b6debc6155f9c23a11edfba40f.jpeg?w=640&h=480",
+        "transcription": "pæʧ tɛst",
+        "soundUrl": "//d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=patch+test"
+      }
+    ]
+  },
+  {
+    "id": 75585,
+    "text": "test drive",
+    "meanings": [
+      {
+        "id": 72181,
+        "partOfSpeechCode": "v",
+        "translation": {
+          "text": "чтобы тест-драйв",
+          "note": null
+        },
+        "previewUrl": "",
+        "imageUrl": "",
+        "transcription": "tɛst draɪv",
+        "soundUrl": "//d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=test+drive"
+      },
+      {
+        "id": 72180,
+        "partOfSpeechCode": "n",
+        "translation": {
+          "text": "тест-драйв",
+          "note": null
+        },
+        "previewUrl": "//d2zkmv5t5kao9.cloudfront.net/images/fdb2a9815595575d452fc3b99a6146cd.jpeg?w=96&h=72",
+        "imageUrl": "//d2zkmv5t5kao9.cloudfront.net/images/fdb2a9815595575d452fc3b99a6146cd.jpeg?w=640&h=480",
+        "transcription": "tɛst draɪv",
+        "soundUrl": "//d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=test+drive"
+      }
+    ]
+  },
+  {
+    "id": 129403,
+    "text": "psychometric test",
+    "meanings": [
+      {
+        "id": 177632,
+        "partOfSpeechCode": "n",
+        "translation": {
+          "text": "психометрический тест",
+          "note": null
+        },
+        "previewUrl": "//d2zkmv5t5kao9.cloudfront.net/images/943ee4c2501c3a6d2e94716a82ef48b7.jpeg?w=96&h=72",
+        "imageUrl": "//d2zkmv5t5kao9.cloudfront.net/images/943ee4c2501c3a6d2e94716a82ef48b7.jpeg?w=640&h=480",
+        "transcription": "ˌsaɪkəʊˈmɛtrɪk tɛst",
+        "soundUrl": "//d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=psychometric+test"
+      },
+      {
+        "id": 231077,
+        "partOfSpeechCode": "ph",
+        "translation": {
+          "text": "психометрический тест",
+          "note": null
+        },
+        "previewUrl": "//d2zkmv5t5kao9.cloudfront.net/images/0e365131b63afda15a43f4fab5dabdcd.jpeg?w=96&h=72",
+        "imageUrl": "//d2zkmv5t5kao9.cloudfront.net/images/0e365131b63afda15a43f4fab5dabdcd.jpeg?w=640&h=480",
+        "transcription": "ˌsaɪkəʊˈmɛtrɪk tɛst",
+        "soundUrl": "//d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=psychometric+test"
+      }
+    ]
+  }
+]
