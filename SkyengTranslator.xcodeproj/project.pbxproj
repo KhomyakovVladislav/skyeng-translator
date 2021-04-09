@@ -14,7 +14,6 @@
 		434197FB261E54C8008CE3B2 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434197F9261E54C8008CE3B2 /* SearchViewController.swift */; };
 		434197FC261E54C8008CE3B2 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 434197FA261E54C8008CE3B2 /* SearchViewController.xib */; };
 		434197FF261E54E2008CE3B2 /* MeaningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434197FD261E54E2008CE3B2 /* MeaningViewController.swift */; };
-		43419800261E54E2008CE3B2 /* MeaningViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 434197FE261E54E2008CE3B2 /* MeaningViewController.xib */; };
 		4341980C261E5926008CE3B2 /* MeaningRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4341980B261E5926008CE3B2 /* MeaningRouter.swift */; };
 		43419810261E5D00008CE3B2 /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4341980F261E5D00008CE3B2 /* SearchService.swift */; };
 		43419813261E6BB1008CE3B2 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43419812261E6BB1008CE3B2 /* Service.swift */; };
@@ -57,7 +56,6 @@
 		434197F9261E54C8008CE3B2 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		434197FA261E54C8008CE3B2 /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
 		434197FD261E54E2008CE3B2 /* MeaningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeaningViewController.swift; sourceTree = "<group>"; };
-		434197FE261E54E2008CE3B2 /* MeaningViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeaningViewController.xib; sourceTree = "<group>"; };
 		4341980B261E5926008CE3B2 /* MeaningRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeaningRouter.swift; sourceTree = "<group>"; };
 		4341980F261E5D00008CE3B2 /* SearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
 		43419812261E6BB1008CE3B2 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
@@ -222,7 +220,6 @@
 			isa = PBXGroup;
 			children = (
 				434197FD261E54E2008CE3B2 /* MeaningViewController.swift */,
-				434197FE261E54E2008CE3B2 /* MeaningViewController.xib */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -344,7 +341,6 @@
 				43D8C044261EB04500802DC3 /* MeaningViewCell.xib in Resources */,
 				434197FC261E54C8008CE3B2 /* SearchViewController.xib in Resources */,
 				434197DE261E09B6008CE3B2 /* LaunchScreen.storyboard in Resources */,
-				43419800261E54E2008CE3B2 /* MeaningViewController.xib in Resources */,
 				43419828261E83AC008CE3B2 /* WordsTableViewController.xib in Resources */,
 				434197DB261E09B6008CE3B2 /* Assets.xcassets in Resources */,
 			);

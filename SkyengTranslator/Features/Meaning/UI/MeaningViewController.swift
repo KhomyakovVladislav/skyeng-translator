@@ -9,12 +9,6 @@
 import UIKit
 
 final class MeaningViewController: UIViewController {
-//    @IBOutlet private weak var imageView: UIImageView!
-//    @IBOutlet private weak var titleLabel: UILabel!
-//    @IBOutlet private weak var subtitleLabel: UILabel!
-    
-//    @IBOutlet private var imageStackViewVPosition: NSLayoutConstraint!
-    
     private lazy var imageView: UIImageView = {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
@@ -77,11 +71,32 @@ final class MeaningViewController: UIViewController {
         label.text = "Examples:"
         label.font = .systemFont(ofSize: 16.0, weight: .light)
         label.translatesAutoresizingMaskIntoConstraints = false
+        label.isHidden = true
         
         return label
     }()
     
+    private lazy var activityIndicator: UIActivityIndicatorView = {
+        let view = UIActivityIndicatorView()
+        view.translatesAutoresizingMaskIntoConstraints = false
+        view.style = .whiteLarge
+        view.color = .gray
+        view.hidesWhenStopped = true
+        
+        return view
+    }()
+    
+    private lazy var swipeGestureRecognizer: UIGestureRecognizer = {
+        let gr = UISwipeGestureRecognizer()
+        gr.direction = .right
+        gr.addTarget(self, action: #selector(onSwipe))
+        gr.numberOfTouchesRequired = 1
+        
+        return gr
+    }()
+    
     private var imageStackViewTopConstraint: NSLayoutConstraint?
+    private var titleStackViewTopConstraint: NSLayoutConstraint?
     
     private let model: MeaningDetailsModel
 
@@ -101,14 +116,19 @@ final class MeaningViewController: UIViewController {
         let view = UIView()
         view.backgroundColor = .white
         
+        view.addSubview(activityIndicator)
         view.addSubview(imageStackView)
         view.addSubview(titleStackView)
         view.addSubview(examplesTitleLabel)
         view.addSubview(examplesStackView)
         
         imageStackViewTopConstraint = imageStackView.topAnchor.constraint(equalTo: view.topAnchor, constant: -Constants.imageHeight)
+        titleStackViewTopConstraint = titleStackView.topAnchor.constraint(greaterThanOrEqualTo: view.safeAreaLayoutGuide.topAnchor, constant: -20.0)
         
         NSLayoutConstraint.activate([
+            activityIndicator.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            activityIndicator.centerYAnchor.constraint(equalTo: view.topAnchor, constant: Constants.imageHeight / 2),
+            
             imageView.heightAnchor.constraint(equalToConstant: Constants.imageHeight),
             
             imageStackView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor),
@@ -117,8 +137,7 @@ final class MeaningViewController: UIViewController {
             
             titleStackView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 20.0),
             titleStackView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -20.0),
-            titleStackView.topAnchor.constraint(equalTo: imageStackView.bottomAnchor, constant: 20.0),
-            titleStackView.topAnchor.constraint(greaterThanOrEqualTo: view.safeAreaLayoutGuide.topAnchor, constant: 20.0),
+            titleStackViewTopConstraint!,
             
             examplesTitleLabel.leadingAnchor.constraint(equalTo: titleStackView.leadingAnchor),
             examplesTitleLabel.trailingAnchor.constraint(equalTo: titleStackView.trailingAnchor),
@@ -129,6 +148,8 @@ final class MeaningViewController: UIViewController {
             examplesStackView.topAnchor.constraint(equalTo: examplesTitleLabel.bottomAnchor, constant: 20.0)
         ])
         
+        view.addGestureRecognizer(swipeGestureRecognizer)
+        
         self.view = view
     }
     
@@ -138,7 +159,8 @@ final class MeaningViewController: UIViewController {
         model.unsubscribe(self)
     }
     
-    @IBAction private func onSwipe() {
+    @objc
+    private func onSwipe() {
         navigationController?.popViewController(animated: true)
     }
 }
@@ -147,10 +169,14 @@ extension MeaningViewController: MeaningDetailsModelObserver {
     func stateDidChange() {
         switch model.state {
         case .result(let meaning, let imageData):
+            activityIndicator.stopAnimating()
+            
             if let imageData = imageData {
                 imageView.image = UIImage(data: imageData)
-                UIView.animate(withDuration: 0.25) {
+                UIView.animate(withDuration: CATransaction.animationDuration()) {
                     self.imageStackViewTopConstraint?.constant = 0
+                    self.titleStackViewTopConstraint?.constant = Constants.imageHeight - self.view.safeAreaInsets.top + 20.0
+                    
                     self.view.layoutIfNeeded()
                 }
             }
@@ -187,7 +213,7 @@ extension MeaningViewController: MeaningDetailsModelObserver {
                 examplesStackView.addArrangedSubview(label)
             }
         case .loading:
-            self.imageStackViewTopConstraint?.constant = -Constants.imageHeight
+            activityIndicator.startAnimating()
             break
         case .noData:
             break
