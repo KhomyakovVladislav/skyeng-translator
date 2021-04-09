@@ -1,0 +1,254 @@
+[
+  {
+    "id": "9044",
+    "wordId": 517,
+    "difficultyLevel": 4,
+    "partOfSpeechCode": "n",
+    "prefix": "a",
+    "text": "test",
+    "soundUrl": "//d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=test",
+    "transcription": "tɛst",
+    "properties": {
+      "collocation": false,
+      "countability": "c",
+      "irregularPlural": false,
+      "falseFriends": []
+    },
+    "updatedAt": "2021-02-10 05:03:17",
+    "mnemonics": null,
+    "translation": {
+      "text": "тест",
+      "note": ""
+    },
+    "images": [
+      {
+        "url": "//d2zkmv5t5kao9.cloudfront.net/images/39a8c12f0bd5311e9bfad2faac9f696d.jpeg?w=200&h=150&q=50"
+      }
+    ],
+    "definition": {
+      "text": "Any standardized procedure for measuring sensitivity or memory, or intelligence, or personality, etc.",
+      "soundUrl": "//d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=any+standardized+procedure+for+measuring+sensitivity+or+memory+or+intelligence+or+personality+etc."
+    },
+    "examples": [
+      {
+        "text": "A psychological [test].",
+        "soundUrl": "//d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=a+psychological+test"
+      },
+      {
+        "text": "Some people see personality [tests] as a tool to improve communication.",
+        "soundUrl": "//d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=Some+people+see+personality+tests+as+a+tool+to+improve+communication."
+      },
+      {
+        "text": "In this intelligence [test] you will see twelve series of patterns.",
+        "soundUrl": "//d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=In+this+intelligence+test+you+will+see+twelve+series+of+patterns."
+      }
+    ],
+    "meaningsWithSimilarTranslation": [
+      {
+        "meaningId": 9045,
+        "frequencyPercent": "31.3",
+        "partOfSpeechAbbreviation": "сущ.",
+        "translation": {
+          "text": "экзамен",
+          "note": ""
+        }
+      },
+      {
+        "meaningId": 9044,
+        "frequencyPercent": "24.6",
+        "partOfSpeechAbbreviation": "сущ.",
+        "translation": {
+          "text": "тест",
+          "note": ""
+        }
+      },
+      {
+        "meaningId": 237309,
+        "frequencyPercent": "19.1",
+        "partOfSpeechAbbreviation": "сущ.",
+        "translation": {
+          "text": "анализ",
+          "note": ""
+        }
+      },
+      {
+        "meaningId": 9043,
+        "frequencyPercent": "12.7",
+        "partOfSpeechAbbreviation": "сущ.",
+        "translation": {
+          "text": "испытание",
+          "note": ""
+        }
+      },
+      {
+        "meaningId": 239328,
+        "frequencyPercent": "6.4",
+        "partOfSpeechAbbreviation": "сущ.",
+        "translation": {
+          "text": "испытание",
+          "note": null
+        }
+      },
+      {
+        "meaningId": 9051,
+        "frequencyPercent": "3.2",
+        "partOfSpeechAbbreviation": "гл.",
+        "translation": {
+          "text": "тестировать",
+          "note": null
+        }
+      },
+      {
+        "meaningId": 9053,
+        "frequencyPercent": "2.6",
+        "partOfSpeechAbbreviation": "гл.",
+        "translation": {
+          "text": "показывать какой-либо результат",
+          "note": "в ходе испытания или экзамена"
+        }
+      }
+    ],
+    "alternativeTranslations": [
+      {
+        "text": "era",
+        "translation": {
+          "text": "эра",
+          "note": null
+        }
+      },
+      {
+        "text": "sir",
+        "translation": {
+          "text": "сэр",
+          "note": null
+        }
+      },
+      {
+        "text": "campus",
+        "translation": {
+          "text": "кампус, университетский городок",
+          "note": ""
+        }
+      },
+      {
+        "text": "meat",
+        "translation": {
+          "text": "мясо",
+          "note": null
+        }
+      },
+      {
+        "text": "speech",
+        "translation": {
+          "text": "речь",
+          "note": ""
+        }
+      },
+      {
+        "text": "engine",
+        "translation": {
+          "text": "двигатель",
+          "note": null
+        }
+      },
+      {
+        "text": "rule",
+        "translation": {
+          "text": "правило ",
+          "note": null
+        }
+      },
+      {
+        "text": "chief",
+        "translation": {
+          "text": "глава",
+          "note": null
+        }
+      },
+      {
+        "text": "use",
+        "translation": {
+          "text": "польза",
+          "note": null
+        }
+      },
+      {
+        "text": "land",
+        "translation": {
+          "text": "почва",
+          "note": null
+        }
+      },
+      {
+        "text": "loss",
+        "translation": {
+          "text": "потеря",
+          "note": null
+        }
+      },
+      {
+        "text": "beach",
+        "translation": {
+          "text": "пляж",
+          "note": null
+        }
+      },
+      {
+        "text": "secret",
+        "translation": {
+          "text": "секрет",
+          "note": null
+        }
+      },
+      {
+        "text": "jury",
+        "translation": {
+          "text": "присяжные",
+          "note": null
+        }
+      },
+      {
+        "text": "reader",
+        "translation": {
+          "text": "читатель",
+          "note": null
+        }
+      },
+      {
+        "text": "lab",
+        "translation": {
+          "text": "лаборатория",
+          "note": "сокращённый вариант"
+        }
+      },
+      {
+        "text": "ticket",
+        "translation": {
+          "text": "билет",
+          "note": null
+        }
+      },
+      {
+        "text": "item",
+        "translation": {
+          "text": "предмет",
+          "note": null
+        }
+      },
+      {
+        "text": "gender",
+        "translation": {
+          "text": "род",
+          "note": null
+        }
+      },
+      {
+        "text": "lake",
+        "translation": {
+          "text": "озеро",
+          "note": null
+        }
+      }
+    ]
+  }
+]

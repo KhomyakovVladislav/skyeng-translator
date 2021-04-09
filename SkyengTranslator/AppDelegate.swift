@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SkyengTranslatorFramework
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

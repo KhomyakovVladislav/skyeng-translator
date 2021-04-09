@@ -7,12 +7,13 @@
 //
 
 import UIKit
+import SkyengTranslatorFramework
 
-protocol MeaningRouter {
-    func routeToMeaning(id: Int)
+protocol MeaningDetailsRouter {
+    func routeToMeaningDetails(with id: MeaningId)
 }
 
-final class DefaultMeaningRouter: MeaningRouter {
+final class DefaultMeaningDetailsRouter: MeaningDetailsRouter {
     
     private unowned let navigationController: UINavigationController
     
@@ -20,7 +21,7 @@ final class DefaultMeaningRouter: MeaningRouter {
         self.navigationController = navigationController
     }
     
-    func routeToMeaning(id: Int) {
+    func routeToMeaningDetails(with id: MeaningId) {
         let model = MeaningDetailsModel(
             meaningId: id,
             meaningDetailsService: MeaningDetailsService(),

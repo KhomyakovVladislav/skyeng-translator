@@ -10,39 +10,81 @@
 		434197D2261E09B2008CE3B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434197D1261E09B2008CE3B2 /* AppDelegate.swift */; };
 		434197DB261E09B6008CE3B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 434197DA261E09B6008CE3B2 /* Assets.xcassets */; };
 		434197DE261E09B6008CE3B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434197DC261E09B6008CE3B2 /* LaunchScreen.storyboard */; };
-		434197E9261E09B6008CE3B2 /* SkyengTranslatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434197E8261E09B6008CE3B2 /* SkyengTranslatorTests.swift */; };
 		434197FB261E54C8008CE3B2 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434197F9261E54C8008CE3B2 /* SearchViewController.swift */; };
 		434197FC261E54C8008CE3B2 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 434197FA261E54C8008CE3B2 /* SearchViewController.xib */; };
 		434197FF261E54E2008CE3B2 /* MeaningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434197FD261E54E2008CE3B2 /* MeaningViewController.swift */; };
 		4341980C261E5926008CE3B2 /* MeaningRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4341980B261E5926008CE3B2 /* MeaningRouter.swift */; };
-		43419810261E5D00008CE3B2 /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4341980F261E5D00008CE3B2 /* SearchService.swift */; };
-		43419813261E6BB1008CE3B2 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43419812261E6BB1008CE3B2 /* Service.swift */; };
-		43419817261E6BDF008CE3B2 /* SearchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43419816261E6BDF008CE3B2 /* SearchRequest.swift */; };
-		43419819261E6C6B008CE3B2 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43419818261E6C6B008CE3B2 /* Word.swift */; };
-		4341981B261E6CBB008CE3B2 /* Meaning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4341981A261E6CBB008CE3B2 /* Meaning.swift */; };
-		4341981D261E6CD8008CE3B2 /* Translation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4341981C261E6CD8008CE3B2 /* Translation.swift */; };
-		4341981F261E6D14008CE3B2 /* SpeechPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4341981E261E6D14008CE3B2 /* SpeechPart.swift */; };
-		43419823261E747E008CE3B2 /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43419822261E747E008CE3B2 /* ServiceError.swift */; };
 		43419827261E83AC008CE3B2 /* WordsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43419825261E83AC008CE3B2 /* WordsTableViewController.swift */; };
 		43419828261E83AC008CE3B2 /* WordsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43419826261E83AC008CE3B2 /* WordsTableViewController.xib */; };
-		43644208261F36DD001CD25B /* MeaningDetailsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43644207261F36DD001CD25B /* MeaningDetailsService.swift */; };
-		4364420A261F36E8001CD25B /* MeaningEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43644209261F36E8001CD25B /* MeaningEx.swift */; };
-		438D3B90261FA2C90071E445 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438D3B8F261FA2C90071E445 /* ImageService.swift */; };
-		438D3B92261FA5450071E445 /* MeaningDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438D3B91261FA5450071E445 /* MeaningDetailsModel.swift */; };
-		43D8C03A261E909200802DC3 /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D8C039261E909200802DC3 /* SearchModel.swift */; };
+		438D3BA5262099D50071E445 /* SkyengTranslatorFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 438D3B9C262099D50071E445 /* SkyengTranslatorFramework.framework */; };
+		438D3BAC262099D50071E445 /* SerializationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438D3BAB262099D50071E445 /* SerializationTests.swift */; };
+		438D3BAE262099D50071E445 /* SkyengTranslatorFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 438D3B9E262099D50071E445 /* SkyengTranslatorFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		438D3BB1262099D50071E445 /* SkyengTranslatorFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 438D3B9C262099D50071E445 /* SkyengTranslatorFramework.framework */; };
+		438D3BB2262099D50071E445 /* SkyengTranslatorFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 438D3B9C262099D50071E445 /* SkyengTranslatorFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		438D3BC126209A090071E445 /* MeaningDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43644209261F36E8001CD25B /* MeaningDetails.swift */; };
+		438D3BC226209A090071E445 /* MeaningId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438D3B952620986A0071E445 /* MeaningId.swift */; };
+		438D3BC326209A090071E445 /* SearchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43419816261E6BDF008CE3B2 /* SearchRequest.swift */; };
+		438D3BC426209A090071E445 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43419818261E6C6B008CE3B2 /* Word.swift */; };
+		438D3BC526209A090071E445 /* Meaning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4341981A261E6CBB008CE3B2 /* Meaning.swift */; };
+		438D3BC626209A090071E445 /* Translation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4341981C261E6CD8008CE3B2 /* Translation.swift */; };
+		438D3BC726209A090071E445 /* SpeechPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4341981E261E6D14008CE3B2 /* SpeechPart.swift */; };
+		438D3BC826209A270071E445 /* MeaningDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438D3B91261FA5450071E445 /* MeaningDetailsModel.swift */; };
+		438D3BC926209A2F0071E445 /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D8C039261E909200802DC3 /* SearchModel.swift */; };
+		438D3BCB26209A460071E445 /* StatefulModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438D3BCA26209A460071E445 /* StatefulModel.swift */; };
+		438D3BCD26209A710071E445 /* SubscribableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438D3BCC26209A710071E445 /* SubscribableModel.swift */; };
+		438D3BCE26209BE80071E445 /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4341980F261E5D00008CE3B2 /* SearchService.swift */; };
+		438D3BCF26209BE80071E445 /* MeaningDetailsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43644207261F36DD001CD25B /* MeaningDetailsService.swift */; };
+		438D3BD026209BE80071E445 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438D3B8F261FA2C90071E445 /* ImageService.swift */; };
+		438D3BD126209BEB0071E445 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43419812261E6BB1008CE3B2 /* Service.swift */; };
+		438D3BD226209BEB0071E445 /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43419822261E747E008CE3B2 /* ServiceError.swift */; };
+		438D3BD82620A93E0071E445 /* words-array.json in Resources */ = {isa = PBXBuildFile; fileRef = 438D3BD72620A93E0071E445 /* words-array.json */; };
+		438D3BDA2620A94C0071E445 /* meaning.json in Resources */ = {isa = PBXBuildFile; fileRef = 438D3BD92620A94C0071E445 /* meaning.json */; };
+		438D3BDC2620A9640071E445 /* meaning-details.json in Resources */ = {isa = PBXBuildFile; fileRef = 438D3BDB2620A9640071E445 /* meaning-details.json */; };
+		438D3BDE2620A99D0071E445 /* XCTest+JsonDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438D3BDD2620A99D0071E445 /* XCTest+JsonDataLoader.swift */; };
+		438D3BE02620B1F10071E445 /* SearchServiceMockDataStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438D3BDF2620B1F10071E445 /* SearchServiceMockDataStub.swift */; };
+		438D3BE22620B3170071E445 /* SearchModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438D3BE12620B3170071E445 /* SearchModelTests.swift */; };
+		43AF0BEC2620BDF000720206 /* SearchServiceErrorStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AF0BEB2620BDF000720206 /* SearchServiceErrorStub.swift */; };
 		43D8C043261EB04500802DC3 /* MeaningViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D8C041261EB04500802DC3 /* MeaningViewCell.swift */; };
 		43D8C044261EB04500802DC3 /* MeaningViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43D8C042261EB04500802DC3 /* MeaningViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		434197E5261E09B6008CE3B2 /* PBXContainerItemProxy */ = {
+		438D3BA6262099D50071E445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 434197C6261E09B2008CE3B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 438D3B9B262099D50071E445;
+			remoteInfo = SkyengTranslatorFramework;
+		};
+		438D3BA8262099D50071E445 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 434197C6261E09B2008CE3B2 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 434197CD261E09B2008CE3B2;
 			remoteInfo = SkyengTranslator;
 		};
+		438D3BAF262099D50071E445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 434197C6261E09B2008CE3B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 438D3B9B262099D50071E445;
+			remoteInfo = SkyengTranslatorFramework;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		438D3BB6262099D60071E445 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				438D3BB2262099D50071E445 /* SkyengTranslatorFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		434197CE261E09B2008CE3B2 /* SkyengTranslator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyengTranslator.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,8 +92,6 @@
 		434197DA261E09B6008CE3B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		434197DD261E09B6008CE3B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		434197DF261E09B6008CE3B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		434197E4261E09B6008CE3B2 /* SkyengTranslatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyengTranslatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		434197E8261E09B6008CE3B2 /* SkyengTranslatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyengTranslatorTests.swift; sourceTree = "<group>"; };
 		434197EA261E09B6008CE3B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		434197F9261E54C8008CE3B2 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		434197FA261E54C8008CE3B2 /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
@@ -68,9 +108,25 @@
 		43419825261E83AC008CE3B2 /* WordsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsTableViewController.swift; sourceTree = "<group>"; };
 		43419826261E83AC008CE3B2 /* WordsTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WordsTableViewController.xib; sourceTree = "<group>"; };
 		43644207261F36DD001CD25B /* MeaningDetailsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeaningDetailsService.swift; sourceTree = "<group>"; };
-		43644209261F36E8001CD25B /* MeaningEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeaningEx.swift; sourceTree = "<group>"; };
+		43644209261F36E8001CD25B /* MeaningDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeaningDetails.swift; sourceTree = "<group>"; };
 		438D3B8F261FA2C90071E445 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
 		438D3B91261FA5450071E445 /* MeaningDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeaningDetailsModel.swift; sourceTree = "<group>"; };
+		438D3B952620986A0071E445 /* MeaningId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeaningId.swift; sourceTree = "<group>"; };
+		438D3B9C262099D50071E445 /* SkyengTranslatorFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SkyengTranslatorFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		438D3B9E262099D50071E445 /* SkyengTranslatorFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkyengTranslatorFramework.h; sourceTree = "<group>"; };
+		438D3B9F262099D50071E445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		438D3BA4262099D50071E445 /* SkyengTranslatorFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyengTranslatorFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		438D3BAB262099D50071E445 /* SerializationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerializationTests.swift; sourceTree = "<group>"; };
+		438D3BAD262099D50071E445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		438D3BCA26209A460071E445 /* StatefulModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatefulModel.swift; sourceTree = "<group>"; };
+		438D3BCC26209A710071E445 /* SubscribableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribableModel.swift; sourceTree = "<group>"; };
+		438D3BD72620A93E0071E445 /* words-array.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "words-array.json"; sourceTree = "<group>"; };
+		438D3BD92620A94C0071E445 /* meaning.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = meaning.json; sourceTree = "<group>"; };
+		438D3BDB2620A9640071E445 /* meaning-details.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "meaning-details.json"; sourceTree = "<group>"; };
+		438D3BDD2620A99D0071E445 /* XCTest+JsonDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTest+JsonDataLoader.swift"; sourceTree = "<group>"; };
+		438D3BDF2620B1F10071E445 /* SearchServiceMockDataStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchServiceMockDataStub.swift; sourceTree = "<group>"; };
+		438D3BE12620B3170071E445 /* SearchModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModelTests.swift; sourceTree = "<group>"; };
+		43AF0BEB2620BDF000720206 /* SearchServiceErrorStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchServiceErrorStub.swift; sourceTree = "<group>"; };
 		43D8C039261E909200802DC3 /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
 		43D8C041261EB04500802DC3 /* MeaningViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeaningViewCell.swift; sourceTree = "<group>"; };
 		43D8C042261EB04500802DC3 /* MeaningViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeaningViewCell.xib; sourceTree = "<group>"; };
@@ -81,13 +137,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				438D3BB1262099D50071E445 /* SkyengTranslatorFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		434197E1261E09B6008CE3B2 /* Frameworks */ = {
+		438D3B99262099D50071E445 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438D3BA1262099D50071E445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438D3BA5262099D50071E445 /* SkyengTranslatorFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +164,8 @@
 			children = (
 				434197D0261E09B2008CE3B2 /* SkyengTranslator */,
 				434197E7261E09B6008CE3B2 /* SkyengTranslatorTests */,
+				438D3B9D262099D50071E445 /* SkyengTranslatorFramework */,
+				438D3BAA262099D50071E445 /* SkyengTranslatorFrameworkTests */,
 				434197CF261E09B2008CE3B2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -107,7 +174,8 @@
 			isa = PBXGroup;
 			children = (
 				434197CE261E09B2008CE3B2 /* SkyengTranslator.app */,
-				434197E4261E09B6008CE3B2 /* SkyengTranslatorTests.xctest */,
+				438D3B9C262099D50071E445 /* SkyengTranslatorFramework.framework */,
+				438D3BA4262099D50071E445 /* SkyengTranslatorFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,7 +195,6 @@
 		434197E7261E09B6008CE3B2 /* SkyengTranslatorTests */ = {
 			isa = PBXGroup;
 			children = (
-				434197E8261E09B6008CE3B2 /* SkyengTranslatorTests.swift */,
 				434197EA261E09B6008CE3B2 /* Info.plist */,
 			);
 			path = SkyengTranslatorTests;
@@ -136,7 +203,6 @@
 		434197F8261E54A6008CE3B2 /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				43419811261E6BA3008CE3B2 /* Networking */,
 				4341980E261E5CB4008CE3B2 /* Meaning */,
 				4341980D261E5CA7008CE3B2 /* Search */,
 				43419801261E5502008CE3B2 /* Navigation */,
@@ -155,10 +221,12 @@
 		4341980D261E5CA7008CE3B2 /* Search */ = {
 			isa = PBXGroup;
 			children = (
-				43D8C045261EB69300802DC3 /* Model */,
-				43419824261E818C008CE3B2 /* UI */,
-				43419815261E6BD0008CE3B2 /* Service */,
-				43419814261E6BC7008CE3B2 /* Entity */,
+				434197F9261E54C8008CE3B2 /* SearchViewController.swift */,
+				434197FA261E54C8008CE3B2 /* SearchViewController.xib */,
+				43419825261E83AC008CE3B2 /* WordsTableViewController.swift */,
+				43419826261E83AC008CE3B2 /* WordsTableViewController.xib */,
+				43D8C041261EB04500802DC3 /* MeaningViewCell.swift */,
+				43D8C042261EB04500802DC3 /* MeaningViewCell.xib */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -166,10 +234,7 @@
 		4341980E261E5CB4008CE3B2 /* Meaning */ = {
 			isa = PBXGroup;
 			children = (
-				4364420B261F500B001CD25B /* Model */,
-				43644206261F2E11001CD25B /* Service */,
-				43644205261EBF11001CD25B /* Entity */,
-				43644204261EBF0C001CD25B /* UI */,
+				434197FD261E54E2008CE3B2 /* MeaningViewController.swift */,
 			);
 			path = Meaning;
 			sourceTree = "<group>";
@@ -179,11 +244,76 @@
 			children = (
 				43419812261E6BB1008CE3B2 /* Service.swift */,
 				43419822261E747E008CE3B2 /* ServiceError.swift */,
+				43644206261F2E11001CD25B /* Services */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
 		};
 		43419814261E6BC7008CE3B2 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				438D3BD426209F6D0071E445 /* Search */,
+				438D3BD326209F620071E445 /* MeaningDetails */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		43644206261F2E11001CD25B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4341980F261E5D00008CE3B2 /* SearchService.swift */,
+				43644207261F36DD001CD25B /* MeaningDetailsService.swift */,
+				438D3B8F261FA2C90071E445 /* ImageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4364420B261F500B001CD25B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				438D3BD526209F7A0071E445 /* Search */,
+				438D3BCA26209A460071E445 /* StatefulModel.swift */,
+				438D3BCC26209A710071E445 /* SubscribableModel.swift */,
+				438D3B91261FA5450071E445 /* MeaningDetailsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		438D3B9D262099D50071E445 /* SkyengTranslatorFramework */ = {
+			isa = PBXGroup;
+			children = (
+				43419811261E6BA3008CE3B2 /* Networking */,
+				4364420B261F500B001CD25B /* Model */,
+				43419814261E6BC7008CE3B2 /* Entity */,
+				438D3B9E262099D50071E445 /* SkyengTranslatorFramework.h */,
+				438D3B9F262099D50071E445 /* Info.plist */,
+			);
+			path = SkyengTranslatorFramework;
+			sourceTree = "<group>";
+		};
+		438D3BAA262099D50071E445 /* SkyengTranslatorFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				43AF0BE62620B69200720206 /* Stubs */,
+				438D3BD62620A9230071E445 /* Data */,
+				438D3BAB262099D50071E445 /* SerializationTests.swift */,
+				438D3BAD262099D50071E445 /* Info.plist */,
+				438D3BDD2620A99D0071E445 /* XCTest+JsonDataLoader.swift */,
+				438D3BE12620B3170071E445 /* SearchModelTests.swift */,
+			);
+			path = SkyengTranslatorFrameworkTests;
+			sourceTree = "<group>";
+		};
+		438D3BD326209F620071E445 /* MeaningDetails */ = {
+			isa = PBXGroup;
+			children = (
+				43644209261F36E8001CD25B /* MeaningDetails.swift */,
+				438D3B952620986A0071E445 /* MeaningId.swift */,
+			);
+			path = MeaningDetails;
+			sourceTree = "<group>";
+		};
+		438D3BD426209F6D0071E445 /* Search */ = {
 			isa = PBXGroup;
 			children = (
 				43419816261E6BDF008CE3B2 /* SearchRequest.swift */,
@@ -192,72 +322,48 @@
 				4341981C261E6CD8008CE3B2 /* Translation.swift */,
 				4341981E261E6D14008CE3B2 /* SpeechPart.swift */,
 			);
-			path = Entity;
+			path = Search;
 			sourceTree = "<group>";
 		};
-		43419815261E6BD0008CE3B2 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				4341980F261E5D00008CE3B2 /* SearchService.swift */,
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		43419824261E818C008CE3B2 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				434197F9261E54C8008CE3B2 /* SearchViewController.swift */,
-				434197FA261E54C8008CE3B2 /* SearchViewController.xib */,
-				43419825261E83AC008CE3B2 /* WordsTableViewController.swift */,
-				43419826261E83AC008CE3B2 /* WordsTableViewController.xib */,
-				43D8C041261EB04500802DC3 /* MeaningViewCell.swift */,
-				43D8C042261EB04500802DC3 /* MeaningViewCell.xib */,
-			);
-			path = UI;
-			sourceTree = "<group>";
-		};
-		43644204261EBF0C001CD25B /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				434197FD261E54E2008CE3B2 /* MeaningViewController.swift */,
-			);
-			path = UI;
-			sourceTree = "<group>";
-		};
-		43644205261EBF11001CD25B /* Entity */ = {
-			isa = PBXGroup;
-			children = (
-				43644209261F36E8001CD25B /* MeaningEx.swift */,
-			);
-			path = Entity;
-			sourceTree = "<group>";
-		};
-		43644206261F2E11001CD25B /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				43644207261F36DD001CD25B /* MeaningDetailsService.swift */,
-				438D3B8F261FA2C90071E445 /* ImageService.swift */,
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		4364420B261F500B001CD25B /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				438D3B91261FA5450071E445 /* MeaningDetailsModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		43D8C045261EB69300802DC3 /* Model */ = {
+		438D3BD526209F7A0071E445 /* Search */ = {
 			isa = PBXGroup;
 			children = (
 				43D8C039261E909200802DC3 /* SearchModel.swift */,
 			);
-			path = Model;
+			path = Search;
+			sourceTree = "<group>";
+		};
+		438D3BD62620A9230071E445 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				438D3BD72620A93E0071E445 /* words-array.json */,
+				438D3BD92620A94C0071E445 /* meaning.json */,
+				438D3BDB2620A9640071E445 /* meaning-details.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		43AF0BE62620B69200720206 /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				438D3BDF2620B1F10071E445 /* SearchServiceMockDataStub.swift */,
+				43AF0BEB2620BDF000720206 /* SearchServiceErrorStub.swift */,
+			);
+			path = Stubs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		438D3B97262099D50071E445 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438D3BAE262099D50071E445 /* SkyengTranslatorFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		434197CD261E09B2008CE3B2 /* SkyengTranslator */ = {
@@ -267,32 +373,53 @@
 				434197CA261E09B2008CE3B2 /* Sources */,
 				434197CB261E09B2008CE3B2 /* Frameworks */,
 				434197CC261E09B2008CE3B2 /* Resources */,
+				438D3BB6262099D60071E445 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				438D3BB0262099D50071E445 /* PBXTargetDependency */,
 			);
 			name = SkyengTranslator;
 			productName = SkyengTranslator;
 			productReference = 434197CE261E09B2008CE3B2 /* SkyengTranslator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		434197E3261E09B6008CE3B2 /* SkyengTranslatorTests */ = {
+		438D3B9B262099D50071E445 /* SkyengTranslatorFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 434197F0261E09B6008CE3B2 /* Build configuration list for PBXNativeTarget "SkyengTranslatorTests" */;
+			buildConfigurationList = 438D3BB3262099D60071E445 /* Build configuration list for PBXNativeTarget "SkyengTranslatorFramework" */;
 			buildPhases = (
-				434197E0261E09B6008CE3B2 /* Sources */,
-				434197E1261E09B6008CE3B2 /* Frameworks */,
-				434197E2261E09B6008CE3B2 /* Resources */,
+				438D3B97262099D50071E445 /* Headers */,
+				438D3B98262099D50071E445 /* Sources */,
+				438D3B99262099D50071E445 /* Frameworks */,
+				438D3B9A262099D50071E445 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				434197E6261E09B6008CE3B2 /* PBXTargetDependency */,
 			);
-			name = SkyengTranslatorTests;
-			productName = SkyengTranslatorTests;
-			productReference = 434197E4261E09B6008CE3B2 /* SkyengTranslatorTests.xctest */;
+			name = SkyengTranslatorFramework;
+			productName = SkyengTranslatorFramework;
+			productReference = 438D3B9C262099D50071E445 /* SkyengTranslatorFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		438D3BA3262099D50071E445 /* SkyengTranslatorFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 438D3BB7262099D60071E445 /* Build configuration list for PBXNativeTarget "SkyengTranslatorFrameworkTests" */;
+			buildPhases = (
+				438D3BA0262099D50071E445 /* Sources */,
+				438D3BA1262099D50071E445 /* Frameworks */,
+				438D3BA2262099D50071E445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				438D3BA7262099D50071E445 /* PBXTargetDependency */,
+				438D3BA9262099D50071E445 /* PBXTargetDependency */,
+			);
+			name = SkyengTranslatorFrameworkTests;
+			productName = SkyengTranslatorFrameworkTests;
+			productReference = 438D3BA4262099D50071E445 /* SkyengTranslatorFrameworkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -308,7 +435,10 @@
 					434197CD261E09B2008CE3B2 = {
 						CreatedOnToolsVersion = 11.6;
 					};
-					434197E3261E09B6008CE3B2 = {
+					438D3B9B262099D50071E445 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					438D3BA3262099D50071E445 = {
 						CreatedOnToolsVersion = 11.6;
 						TestTargetID = 434197CD261E09B2008CE3B2;
 					};
@@ -328,7 +458,8 @@
 			projectRoot = "";
 			targets = (
 				434197CD261E09B2008CE3B2 /* SkyengTranslator */,
-				434197E3261E09B6008CE3B2 /* SkyengTranslatorTests */,
+				438D3B9B262099D50071E445 /* SkyengTranslatorFramework */,
+				438D3BA3262099D50071E445 /* SkyengTranslatorFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -346,10 +477,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		434197E2261E09B6008CE3B2 /* Resources */ = {
+		438D3B9A262099D50071E445 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438D3BA2262099D50071E445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438D3BDC2620A9640071E445 /* meaning-details.json in Resources */,
+				438D3BDA2620A94C0071E445 /* meaning.json in Resources */,
+				438D3BD82620A93E0071E445 /* words-array.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,42 +502,66 @@
 			buildActionMask = 2147483647;
 			files = (
 				434197FF261E54E2008CE3B2 /* MeaningViewController.swift in Sources */,
-				43419819261E6C6B008CE3B2 /* Word.swift in Sources */,
 				434197FB261E54C8008CE3B2 /* SearchViewController.swift in Sources */,
-				43D8C03A261E909200802DC3 /* SearchModel.swift in Sources */,
 				43419827261E83AC008CE3B2 /* WordsTableViewController.swift in Sources */,
-				4364420A261F36E8001CD25B /* MeaningEx.swift in Sources */,
-				4341981F261E6D14008CE3B2 /* SpeechPart.swift in Sources */,
-				438D3B92261FA5450071E445 /* MeaningDetailsModel.swift in Sources */,
-				43419810261E5D00008CE3B2 /* SearchService.swift in Sources */,
 				434197D2261E09B2008CE3B2 /* AppDelegate.swift in Sources */,
 				43D8C043261EB04500802DC3 /* MeaningViewCell.swift in Sources */,
-				43419817261E6BDF008CE3B2 /* SearchRequest.swift in Sources */,
-				438D3B90261FA2C90071E445 /* ImageService.swift in Sources */,
 				4341980C261E5926008CE3B2 /* MeaningRouter.swift in Sources */,
-				43419823261E747E008CE3B2 /* ServiceError.swift in Sources */,
-				43644208261F36DD001CD25B /* MeaningDetailsService.swift in Sources */,
-				43419813261E6BB1008CE3B2 /* Service.swift in Sources */,
-				4341981B261E6CBB008CE3B2 /* Meaning.swift in Sources */,
-				4341981D261E6CD8008CE3B2 /* Translation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		434197E0261E09B6008CE3B2 /* Sources */ = {
+		438D3B98262099D50071E445 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				434197E9261E09B6008CE3B2 /* SkyengTranslatorTests.swift in Sources */,
+				438D3BC526209A090071E445 /* Meaning.swift in Sources */,
+				438D3BC226209A090071E445 /* MeaningId.swift in Sources */,
+				438D3BD126209BEB0071E445 /* Service.swift in Sources */,
+				438D3BC826209A270071E445 /* MeaningDetailsModel.swift in Sources */,
+				438D3BCF26209BE80071E445 /* MeaningDetailsService.swift in Sources */,
+				438D3BC926209A2F0071E445 /* SearchModel.swift in Sources */,
+				438D3BC426209A090071E445 /* Word.swift in Sources */,
+				438D3BC326209A090071E445 /* SearchRequest.swift in Sources */,
+				438D3BD226209BEB0071E445 /* ServiceError.swift in Sources */,
+				438D3BC126209A090071E445 /* MeaningDetails.swift in Sources */,
+				438D3BCB26209A460071E445 /* StatefulModel.swift in Sources */,
+				438D3BC726209A090071E445 /* SpeechPart.swift in Sources */,
+				438D3BCE26209BE80071E445 /* SearchService.swift in Sources */,
+				438D3BC626209A090071E445 /* Translation.swift in Sources */,
+				438D3BCD26209A710071E445 /* SubscribableModel.swift in Sources */,
+				438D3BD026209BE80071E445 /* ImageService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438D3BA0262099D50071E445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438D3BAC262099D50071E445 /* SerializationTests.swift in Sources */,
+				438D3BE02620B1F10071E445 /* SearchServiceMockDataStub.swift in Sources */,
+				438D3BDE2620A99D0071E445 /* XCTest+JsonDataLoader.swift in Sources */,
+				438D3BE22620B3170071E445 /* SearchModelTests.swift in Sources */,
+				43AF0BEC2620BDF000720206 /* SearchServiceErrorStub.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		434197E6261E09B6008CE3B2 /* PBXTargetDependency */ = {
+		438D3BA7262099D50071E445 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 438D3B9B262099D50071E445 /* SkyengTranslatorFramework */;
+			targetProxy = 438D3BA6262099D50071E445 /* PBXContainerItemProxy */;
+		};
+		438D3BA9262099D50071E445 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 434197CD261E09B2008CE3B2 /* SkyengTranslator */;
-			targetProxy = 434197E5261E09B6008CE3B2 /* PBXContainerItemProxy */;
+			targetProxy = 438D3BA8262099D50071E445 /* PBXContainerItemProxy */;
+		};
+		438D3BB0262099D50071E445 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 438D3B9B262099D50071E445 /* SkyengTranslatorFramework */;
+			targetProxy = 438D3BAF262099D50071E445 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -529,6 +694,7 @@
 		434197EE261E09B6008CE3B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J77XNB8Z48;
@@ -548,6 +714,7 @@
 		434197EF261E09B6008CE3B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J77XNB8Z48;
@@ -564,21 +731,75 @@
 			};
 			name = Release;
 		};
-		434197F1261E09B6008CE3B2 /* Debug */ = {
+		438D3BB4262099D60071E445 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = J77XNB8Z48;
-				INFOPLIST_FILE = SkyengTranslatorTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SkyengTranslatorFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.khomyakov.SkyengTranslatorTests;
+				PRODUCT_BUNDLE_IDENTIFIER = me.khomyakov.SkyengTranslatorFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		438D3BB5262099D60071E445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = J77XNB8Z48;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SkyengTranslatorFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.khomyakov.SkyengTranslatorFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		438D3BB8262099D60071E445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J77XNB8Z48;
+				INFOPLIST_FILE = SkyengTranslatorFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.khomyakov.SkyengTranslatorFrameworkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -586,21 +807,19 @@
 			};
 			name = Debug;
 		};
-		434197F2261E09B6008CE3B2 /* Release */ = {
+		438D3BB9262099D60071E445 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J77XNB8Z48;
-				INFOPLIST_FILE = SkyengTranslatorTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				INFOPLIST_FILE = SkyengTranslatorFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.khomyakov.SkyengTranslatorTests;
+				PRODUCT_BUNDLE_IDENTIFIER = me.khomyakov.SkyengTranslatorFrameworkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -629,11 +848,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		434197F0261E09B6008CE3B2 /* Build configuration list for PBXNativeTarget "SkyengTranslatorTests" */ = {
+		438D3BB3262099D60071E445 /* Build configuration list for PBXNativeTarget "SkyengTranslatorFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				434197F1261E09B6008CE3B2 /* Debug */,
-				434197F2261E09B6008CE3B2 /* Release */,
+				438D3BB4262099D60071E445 /* Debug */,
+				438D3BB5262099D60071E445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		438D3BB7262099D60071E445 /* Build configuration list for PBXNativeTarget "SkyengTranslatorFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438D3BB8262099D60071E445 /* Debug */,
+				438D3BB9262099D60071E445 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
