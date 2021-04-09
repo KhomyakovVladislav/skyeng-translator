@@ -12,8 +12,5 @@ struct Meaning: Decodable {
     let id: Int
     let partOfSpeechCode: SpeechPart
     let translation: Translation
-    let previewUrl: String
-    let imageUrl: String
     let transcription: String
-    let soundUrl: String
 }

@@ -13,12 +13,12 @@ final class MeaningViewCell: UITableViewCell {
     static let nibName = "MeaningViewCell"
     static let id = "MeaningViewCell"
     
-    @IBOutlet weak var headerLabel: UILabel!
-    @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet private weak var headerLabel: UILabel!
+    @IBOutlet private weak var descriptionLabel: UILabel!
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    func fillIn(with meaning: Meaning) {
+        headerLabel.text = meaning.translation.text
+        descriptionLabel.text = String(format: "%@ / %@ / %@", meaning.partOfSpeechCode.description, meaning.transcription, meaning.translation.note ?? "")
     }
     
 }

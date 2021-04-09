@@ -8,7 +8,20 @@
 
 import Foundation
 
-final class SearchModel {
+protocol StatefulModel {
+    associatedtype StateType
+    
+    var state: StateType { get }
+}
+
+protocol SubscribableModel {
+    associatedtype ObserverType
+    
+    func subscribe(_ observer: ObserverType)
+    func unsubscribe(_ observer: ObserverType)
+}
+
+final class SearchModel: StatefulModel, SubscribableModel {
     private(set) var state: State = .initial {
         didSet {
             NotificationCenter.default.post(name: Notifications.stateChanged, object: nil)
@@ -38,8 +51,7 @@ final class SearchModel {
         
         state = .loading
         
-        let request = SearchRequest(search: string)
-        service.doRequest(request) { words, error in
+        service.doRequest(string) { words, error in
             if let error = error {
                 self.state = .error(error)
                 return
@@ -78,7 +90,7 @@ final class SearchModel {
     }
     
     private enum Notifications {
-        static let stateChanged = NSNotification.Name("Game.stateChanged")
+        static let stateChanged = NSNotification.Name("SearchModel.stateChanged")
     }
 }
 

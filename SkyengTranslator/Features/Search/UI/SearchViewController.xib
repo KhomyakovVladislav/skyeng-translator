@@ -23,19 +23,19 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type a word" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="03Y-UU-deJ">
-                    <rect key="frame" x="20" y="85" width="374" height="34"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type a word or a phrase" textAlignment="natural" minimumFontSize="18" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="03Y-UU-deJ">
+                    <rect key="frame" x="20" y="64" width="374" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
                     <textInputTraits key="textInputTraits" returnKeyType="search"/>
                 </textField>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="S0I-SS-l6Y">
-                    <rect key="frame" x="20" y="127" width="374" height="724"/>
+                    <rect key="frame" x="0.0" y="118" width="414" height="744"/>
                 </stackView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OJJ-ws-oiI">
-                    <rect key="frame" x="20" y="127" width="374" height="724"/>
+                    <rect key="frame" x="0.0" y="118" width="414" height="744"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search results will be diplayed here" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="URG-kT-Ocb">
-                            <rect key="frame" x="52.5" y="352" width="269" height="20.5"/>
+                            <rect key="frame" x="52.5" y="362" width="309" height="20.5"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
@@ -50,7 +50,7 @@
                     </constraints>
                 </view>
                 <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="RKH-TM-eqK">
-                    <rect key="frame" x="188.5" y="471.5" width="37" height="37"/>
+                    <rect key="frame" x="188.5" y="483.5" width="37" height="37"/>
                     <color key="color" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </activityIndicatorView>
             </subviews>
@@ -58,18 +58,18 @@
             <gestureRecognizers/>
             <constraints>
                 <constraint firstItem="03Y-UU-deJ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="0U5-QY-V3W"/>
-                <constraint firstItem="OJJ-ws-oiI" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="0Zz-N9-l74"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="OJJ-ws-oiI" secondAttribute="trailing" constant="20" id="824-NA-7J2"/>
-                <constraint firstItem="S0I-SS-l6Y" firstAttribute="top" secondItem="03Y-UU-deJ" secondAttribute="bottom" constant="8" id="Bij-dn-xk9"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="S0I-SS-l6Y" secondAttribute="bottom" constant="11" id="FJr-7O-HCf"/>
-                <constraint firstItem="OJJ-ws-oiI" firstAttribute="top" secondItem="03Y-UU-deJ" secondAttribute="bottom" constant="8" id="FSP-Rg-5g8"/>
+                <constraint firstItem="OJJ-ws-oiI" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="0Zz-N9-l74"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="OJJ-ws-oiI" secondAttribute="trailing" id="824-NA-7J2"/>
+                <constraint firstItem="S0I-SS-l6Y" firstAttribute="top" secondItem="03Y-UU-deJ" secondAttribute="bottom" constant="20" id="Bij-dn-xk9"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="S0I-SS-l6Y" secondAttribute="bottom" id="FJr-7O-HCf"/>
+                <constraint firstItem="OJJ-ws-oiI" firstAttribute="top" secondItem="03Y-UU-deJ" secondAttribute="bottom" constant="20" id="FSP-Rg-5g8"/>
                 <constraint firstItem="RKH-TM-eqK" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="Oif-eB-uGA"/>
-                <constraint firstItem="RKH-TM-eqK" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" constant="37" id="Qxa-dT-xUf"/>
-                <constraint firstItem="S0I-SS-l6Y" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="W5t-JM-lbn"/>
+                <constraint firstItem="RKH-TM-eqK" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" constant="49" id="Qxa-dT-xUf"/>
+                <constraint firstItem="S0I-SS-l6Y" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="W5t-JM-lbn"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="03Y-UU-deJ" secondAttribute="trailing" constant="20" id="YRq-hc-rO4"/>
-                <constraint firstItem="03Y-UU-deJ" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="41" id="mTe-R5-vEN"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="OJJ-ws-oiI" secondAttribute="bottom" constant="11" id="okx-HO-IHV"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="S0I-SS-l6Y" secondAttribute="trailing" constant="20" id="vVD-jB-O22"/>
+                <constraint firstItem="03Y-UU-deJ" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="mTe-R5-vEN"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="OJJ-ws-oiI" secondAttribute="bottom" id="okx-HO-IHV"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="S0I-SS-l6Y" secondAttribute="trailing" id="vVD-jB-O22"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="137.68115942028987" y="148.66071428571428"/>

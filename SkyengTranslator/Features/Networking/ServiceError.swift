@@ -1,5 +1,5 @@
 //
-//  SearchServiceError.swift
+//  ServiceError.swift
 //  SkyengTranslator
 //
 //  Created by Vladislav Khomyakov on 08.04.2021.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-enum SearchServiceError: Error {
+enum ServiceError: Error {
     case networkError(_ underlyingError: Error)
     case serializationError
 }

@@ -93,8 +93,8 @@ final class WordsTableViewController: UITableViewController {
         }
         
         let meaning = words[indexPath.section].meanings[indexPath.row]
-        cell.headerLabel.text = meaning.translation.text
-        cell.descriptionLabel.text = String(format: "[%@] %@ %@", meaning.transcription, meaning.partOfSpeechCode.description, meaning.translation.note ?? "")
+        
+        cell.fillIn(with: meaning)
         
         return cell
     }

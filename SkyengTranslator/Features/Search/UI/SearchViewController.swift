@@ -36,6 +36,9 @@ final class SearchViewController: UIViewController, UITextFieldDelegate, SearchM
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        navigationController?.navigationBar.prefersLargeTitles = true
+        navigationItem.title = "Search"
+        
         resultsTablePlaceholder.addArrangedSubview(resultsTableViewController.view)
         addChild(resultsTableViewController)
         resultsTableViewController.didMove(toParent: self)

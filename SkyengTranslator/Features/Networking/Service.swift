@@ -11,9 +11,6 @@ import Foundation
 protocol Service {
     associatedtype RequestType
     associatedtype ResponseType
-    associatedtype ErrorType: Error
     
-    var url: URL { get }
-    
-    func doRequest(_ req: RequestType, _ completion: ((ResponseType?, ErrorType?) -> Void)?)
+    func doRequest(_ req: RequestType, _ completion: ((ResponseType?, ServiceError?) -> Void)?)
 }

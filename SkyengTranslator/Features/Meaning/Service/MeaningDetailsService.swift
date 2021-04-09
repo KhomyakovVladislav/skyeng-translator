@@ -1,5 +1,5 @@
 //
-//  SearchService.swift
+//  MeaningDetailsService.swift
 //  SkyengTranslator
 //
 //  Created by Vladislav Khomyakov on 08.04.2021.
@@ -8,9 +8,9 @@
 
 import Foundation
 
-class SearchService: Service {
-    typealias RequestType = String
-    typealias ResponseType = [Word]
+class MeaningDetailsService: Service {
+    typealias RequestType = Int
+    typealias ResponseType = [MeaningEx]
     
     private let url: URL = {
         var components = URLComponents()
@@ -22,11 +22,11 @@ class SearchService: Service {
         return components.url!
     }()
     
-    func doRequest(_ request: String, _ completion: (([Word]?, ServiceError?) -> Void)?) {
+    func doRequest(_ meaningId: Int, _ completion: (([MeaningEx]?, ServiceError?) -> Void)?) {
         var components = URLComponents(url: url, resolvingAgainstBaseURL: false)!
         
         components.queryItems = [
-            URLQueryItem(name: "search", value: request)
+            URLQueryItem(name: "ids", value: "\(meaningId)")
         ]
         
         var urlRequest = URLRequest(url: components.url!)
@@ -44,7 +44,7 @@ class SearchService: Service {
             }
             
             guard let data = data,
-                let words = try? JSONDecoder().decode([Word].self, from: data) else {
+                let words = try? JSONDecoder().decode([MeaningEx].self, from: data) else {
                     DispatchQueue.main.async {
                         completion?(nil, .serializationError)
                     }
@@ -59,6 +59,6 @@ class SearchService: Service {
     
     private enum Constants {
         static let host = "dictionary.skyeng.ru"
-        static let path = "/api/public/v1/words/search"
+        static let path = "/api/public/v1/meanings"
     }
 }

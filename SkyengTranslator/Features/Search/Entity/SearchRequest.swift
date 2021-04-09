@@ -10,6 +10,4 @@ import Foundation
 
 struct SearchRequest {
     let search: String
-    let page: Int? = nil
-    let pageSize: Int? = nil
 }

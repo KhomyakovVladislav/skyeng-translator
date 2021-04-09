@@ -21,7 +21,14 @@ final class DefaultMeaningRouter: MeaningRouter {
     }
     
     func routeToMeaning(id: Int) {
-        navigationController.pushViewController(MeaningViewController(), animated: true)
+        let model = MeaningDetailsModel(
+            meaningId: id,
+            meaningDetailsService: MeaningDetailsService(),
+            imageService: ImageService()
+        )
+        let vc = MeaningViewController(model: model)
+        
+        navigationController.pushViewController(vc, animated: true)
     }
     
 }
