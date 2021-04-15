@@ -43,60 +43,38 @@ final class WordsTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        guard let words = model.words else {
-            return nil
-        }
-        
-        return words[section].text
+        model.words[section].text
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         
-        guard let words = model.words else {
-            return
-        }
-        
-        let id = MeaningId(id: words[indexPath.section].meanings[indexPath.row].id)
+        let id = MeaningId(id: model.words[indexPath.section].meanings[indexPath.row].id)
         router.routeToMeaningDetails(with: id)
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
-        guard let words = model.words else {
-            return 0
-        }
-        
-        return words.count
+        model.words.count
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        guard let words = model.words else {
-            return 0
+        model.words[section].meanings.count
+    }
+    
+    override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        guard let cell = cell as? MeaningViewCell else {
+            fatalError("Unknown cell type. Expected type \(MeaningViewCell.id)")
         }
         
-        return words[section].meanings.count
-    }
-    
-    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        UITableView.automaticDimension
-    }
-    
-    override func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
-        50.0
+        let meaning = model.words[indexPath.section].meanings[indexPath.row]
+        
+        cell.fillIn(with: meaning)
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: MeaningViewCell.id) as? MeaningViewCell else {
             fatalError("Unable to dequeue reusable cell with id \(MeaningViewCell.id)")
         }
-        
-        guard let words = model.words else {
-            return cell
-        }
-        
-        let meaning = words[indexPath.section].meanings[indexPath.row]
-        
-        cell.fillIn(with: meaning)
         
         return cell
     }

@@ -17,7 +17,7 @@ public class ImageService: Service {
     }
     
     public func doRequest(_ url: URL, _ completion: ((Data?, ServiceError?) -> Void)?) {
-        DispatchQueue.global().async {
+        DispatchQueue.global(qos: .utility).async {
             do {
                 let data = try Data(contentsOf: url)
                 

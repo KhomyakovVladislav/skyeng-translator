@@ -15,12 +15,12 @@ public final class SearchModel: StatefulModel, SubscribableModel {
         }
     }
     
-    public var words: [Word]? {
+    public var words: [Word] {
         switch state {
         case .result(let words):
             return words
         default:
-            return nil
+            return []
         }
     }
     
